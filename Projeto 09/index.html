@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <meta charset="UTF-8">
+  <title>Jogo da Advinhação</title>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+  <main>
+    <div class="screen01">
+
+      <h1>Jogo da Advinhação</h1>
+      <p>Advinhe o Número! ele está entre 0 e 10..</p>
+      <form>
+        <input id="InputNumber" type="text">
+        <button id="tryButton">Teste sua Sorte!</button>
+      </form>
+
+    </div>
+
+    <div class="screen02 hide">
+      <h2>Parabéns, você acertou em x tentativas!</h2>
+      <button id="tryAgainButton">Jogar Novamente</button>
+    </div>
+  </main>
+
+  <script src="./script.js"></script>
+</body>
+
+</html>
